@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <title>b-creative</title>
+</head>
+<body>
+    <div class="main-container" id="home">
+        <!-- HEADER SECTION -->
+        <header>
+            <div class="logo">
+                <img src="1. HEADER/logo b-creative-01.svg" alt="logo">
+            </div>
+            <nav class="right-menu">
+                <div class="hamburger">
+                    <button class="hamburger-menu-button"><i class="fa-sharp fa-solid fa-bars"></i></button>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">POČETNA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">O NAMA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">KONTAKT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- BANNER SECTION -->
+        <div class="banner-section">
+            <div class="animation"></div>
+                <div class="banner-container">
+                    <h2>DIZAJNIRAMO NAJBOLJE</h2>
+                    <h1>WEB STRANICE</h1>
+                    <button>Kontaktiraj nas!</button>
+                </div>
+            </div>
+        </div>
+        <!-- ABOUT US SECTION -->
+        <div class="about-us-section" id="about-us">
+            <h2>MI SMO AGENCIJA <br> KOJA DONOSI REZULTATE</h2>
+            <div class="gradient-rectangle"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus <br> modi ullam unde nobis odit placeat <br> consequuntur earum, labore iste assumenda. <br> optio suscipit autem? Dolorum quaerat voluptatum et!</p>
+            <div class="icons-container">
+                <div class="development">
+                    <div class="icons-hover">
+                        <div class="circle">
+                            <img class="black" src="3. O NAMA - ikonice/developer.svg" alt="developer">
+                            <img class="white" src="3. O NAMA - ikonice/developer-white.png" alt="">
+                        </div>
+                        <h3>DEVELOPMENT</h3>
+                        <div class="small-gradient-rectangle"></div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi eos modi.</p>
+                </div>
+                <div class="branding">
+                    <div class="icons-hover">
+                        <div class="circle">
+                            <img class="black" src="3. O NAMA - ikonice/branding.svg" alt="branding">
+                            <img class="white" src="3. O NAMA - ikonice/branding-white.png" alt="">
+                        </div>
+                        <h3>BRANDING</h3>
+                        <div class="small-gradient-rectangle"></div>
+                    </div> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi eos modi.</p>
+                </div>
+                <div class="marketing">
+                    <div class="icons-hover">
+                        <div class="circle">
+                            <img class="black" src="3. O NAMA - ikonice/digital-marketing.svg" alt="marketing">
+                            <img class="white" src="3. O NAMA - ikonice/digital-marketing-white.png" alt="">
+                        </div>
+                        <h3>MARKETING</h3>
+                        <div class="small-gradient-rectangle"></div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quasi eos modi.</p>
+                </div>
+            </div>
+        </div>
+        <!-- PORTFOLIO SECTION -->
+        <div class="portfolio-section" id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="gradient-rectangle"></div>
+            <div class="buttons" id="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')">SVI RADOVI</button>
+                <button class="btn" onclick="filterSelection('logo')">LOGO DIZAJN</button>
+                <button class="btn s.line" onclick="filterSelection('web')">WEB DIZAJN</button>
+                <button class="btn s.line" onclick="filterSelection('dev')">DEVELOPMENT</button>
+            </div>
+            <div class="portfolio">
+                <div class="column logo item h-2">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/tsif-logo-dizajn-680x480px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>TSIF</h3>
+                        <h4>LOGO DIZAJN</h4>
+                    </div>
+                </div>
+                <div class="column logo item">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/rolex-logo-dizajn-340x480px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>ROLEX</h3>
+                        <h4>LOGO DIZAJN</h4>
+                    </div>
+                </div>
+                <div class="column web item w-2">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/shwamhouse-web-dizajn340x4960px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>SHWAMHOUSE</h3>
+                        <h4>WEB DIZAJN</h4>
+                    </div>
+                </div>
+                <div class="column dev item h-2">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/app-development-680x480px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>APP</h3>
+                        <h4>DEVELOPMENT</h4>
+                    </div>
+                </div>
+                <div class="column web item h-2">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/how2fit-web-design-680x480px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>HOW 2 FIT</h3>
+                        <h4>WEB DIZAJN</h4>
+                    </div>
+                </div>
+                <div class="column logo item">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/toyota-logo-dizajn-340x480px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>TOYOTA</h3>
+                        <h4>LOGO DIZAJN</h4>
+                    </div>
+                </div>
+                <div class="column web item">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/plum-web-dizajn340x480px.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>PLUM</h3>
+                        <h4>WEB DIZAJN</h4>
+                    </div>
+                </div>
+                <div class="column web item">
+                    <div class="content">
+                        <img src="4. PORTFOLIO - slike/bcreative-web-dizajn-web-development-340x480.jpg" alt="">
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text">
+                        <h3>B-CREATIVE</h3>
+                        <h4>WEB DIZAJN</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COUNTER SECTION -->
+        <div class="counter-section">
+            <div class="count-container">
+                <div class="num" id="counter-1" data-goal="256">0</div>
+                <h2>PROJEKATA</h2>
+            </div>
+            <div class="count-container">
+                <div class="num" id="counter-2" data-goal="355">0</div>
+                <h2>KILJENATA</h2>
+            </div>
+            <div class="count-container">
+                <div class="num" id="counter-3" data-goal="825">0</div>
+                <h2>KAFA</h2>
+            </div>
+            <div class="count-container">
+                <div class="num" id="counter-4" data-goal="75">0</div>
+                <h2>PRIZNANJA</h2>
+            </div>
+        </div>
+        <!-- BLOG SECTION -->
+        <div class="blog-section" id="blog">
+            <div class="text-container">
+                <h2>BLOG</h2>
+                <div class="gradient-rectangle"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel assumenda porro in consequatur. Esse corrupti, reiciendis <br> omnis maxime dolor fugiat ab tempora, officiis perferendis officia ea voluptatem ipsum.</p>
+            </div>
+            <div class="image-container">
+                <div class="images">
+                    <img src="5. BLOG - slike/kvalitet-ne-izlazi-iz-mode-1000x800px.jpg" alt="">
+                    <div class="date">
+                        <p>17.<br>OKT</p>
+                    </div>
+                    <h3>KVALITET NE IZLAZI IZ MODE</h3>
+                    <h4>LOGO DIZAJN</h4>
+                    <p>Saznaj više <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+                <div class="images">
+                    <img src="5. BLOG - slike/optimizacija-sajta-1000x800px.jpg" alt="">
+                    <div class="date">
+                        <p>5.<br>OKT</p>
+                    </div>
+                    <h3>OPTIMIZACIJA SAJTA</h3>
+                    <h4>WEB DIZAJN</h4>
+                    <p>Saznaj više <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+                <div class="images">
+                    <img src="5. BLOG - slike/psihologija-boja-1000x800px.jpg" alt="">
+                    <div class="date">
+                        <p>23.<br>SEP</p>
+                    </div>
+                    <h3>PSIHOLOGIJA BOJA</h3>
+                    <h4>LOGO DIZAJN</h4>
+                    <p>Saznaj više <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+            </div>
+        </div>
+        <!-- OUR TEAM SECTION -->
+        <div class="our-team-section">
+            <h2>UPOZNAJTE NAŠ TIM</h2>
+            <div class="gradient-rectangle"></div>
+                <div class="team-container">
+                    <div class="person1 persons">
+                        <div class="image1">
+                            <img src="6. UPOZNAJTE NAS TIM - slike/Ime-Prezime-1-350x420px.jpg" alt="">
+                        </div>
+                        <div class="rectangle"></div>
+                        <div class="text-images">
+                            <div class="icons">
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin.png" alt="">
+                            </div>
+                            <h3>IME PREZIME 1</h3>
+                            <H4>PHOTOGRAPHER</H4>
+                            <div class="small-gradient-rectangle"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum?</p>
+                        </div>
+                    </div>
+                    <div class="person2 persons">
+                        <div class="image2">
+                            <img src="6. UPOZNAJTE NAS TIM - slike/Ime-Prezime-2-350x420px.jpg" alt="">
+                        </div>
+                        <div class="rectangle"></div>
+                        <div class="text-images">
+                            <div class="icons">
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin.png" alt="">
+                            </div>
+                            <h3>IME PREZIME 2</h3>
+                            <H4>CEO</H4>
+                            <div class="small-gradient-rectangle"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum?</p>
+                        </div>
+                    </div>
+                    <div class="person3 persons">
+                        <div class="image1">
+                            <img src="6. UPOZNAJTE NAS TIM - slike/Ime-Prezime-3-350x420px.jpg" alt="">
+                        </div>
+                        <div class="rectangle"></div>
+                        <div class="text-images">
+                            <div class="icons">
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram.png" alt="">
+
+                                <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin-white.png" alt="">
+                                <img class="black" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin.png" alt="">
+                            </div>
+                            <h3>IME PREZIME 3</h3>
+                            <H4>DEVELOPER</H4>
+                            <div class="small-gradient-rectangle"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum?</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- CONTACT SECTION -->
+        <div class="contact-section" id="contact">
+            <h2>KONTAKTIRAJTE NAS!</h2>
+            <div class="gradient-rectangle"></div>
+            <div class="fi-container">
+                <div class="form-container">
+                    <form class="form">
+                        <!-- NAME -->
+                        <div  class="input-container">
+                            <input required type="text" name="name" id="name" placeholder="VAŠE IME*">
+                        </div>
+                        <!-- E-MAIL -->
+                        <div  class="input-container">
+                            <input required type="email" name="e-mail" id="e-mail" placeholder="VAŠ MAIL*">
+                        </div>
+                        <!-- MESSAGE -->
+                        <div  class="input-container">
+                            <textarea name="message" id="message"cols="30"rows="10"placeholder="PORUKA:"></textarea>
+                        </div>
+                        <!-- BUTTON -->
+                        <div class="button">
+                        <input type="submit" value="POŠALJI!" class="submit-btn" id="btn">
+                        </div>
+                    </form>
+                </div>
+                <div class="form-icons-container">
+                    <div class="container adress">
+                        <div class="circle">
+                            <img src="7. KONTAKTIRAJTE NAS - ikonice/996424-contact-us/png/012-placeholder.png" alt="">
+                        </div>
+                        <div class="text-container">
+                            <h3>ADRESA</h3>
+                            <p>Joesph T. Villanvera 129 North Street</p>
+                            <p>Grand Rapids, MI 49546</p>
+                        </div>
+                    </div>
+                    <div class="container mail">
+                        <div class="circle">
+                            <img src="7. KONTAKTIRAJTE NAS - ikonice/996424-contact-us/png/004-email.png" alt="">
+                        </div>
+                        <div class="text-container">
+                            <h3>EMAIL</h3>
+                            <p>incognito@gmail.com</p>
+                            <p>office@bcreative.com</p> 
+                        </div>
+                    </div>
+                    <div class="container phone">
+                        <div class="circle">
+                            <img src="7. KONTAKTIRAJTE NAS - ikonice/996424-contact-us/png/001-telephone.png" alt="">
+                        </div>
+                        <div class="text-container">
+                            <h3>TELEFON</h3>
+                            <p>+387 61 111 222</p>
+                            <p>+387 32 222 333</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER SECTION -->
+        <footer>
+            <div class="left">
+                <h2><span>BE CREATIVE</span> DIGITAL AGENCY</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores esse ipsam tenetur molestiae, porro atque culpa illo aspernatur autem fugit deleniti nemo libero explicabo quas sint ipsa perferendis neque perspiciatis dolor voluptatum.</p>
+                <img src="8. FOOTER/logo b-creative-02.svg" alt="b-creative-logo">
+            </div>
+            <div class="middle">
+                <h2><a href="#home"><span>POČETNA</span></a></h2>
+                <h2><a href="#about-us">O NAMA</a></h2>
+                <h2><a href="#portfolio">PORTFOLIO</a></h2>
+                <h2><a href="#blog">BLOG</a></h2>
+                <h2><a href="#contact">KONTAKT</a></h2>
+            </div>
+            <div class="right">
+                <h2><span>PRETPLATI SE NA NAŠ</span> NEWSLETTER</h2>
+                <form class="subscribe-form">
+                    <div class="email">
+                        <input type="email" placeholder="UNESITE VAŠU EMAIL ADRESU" class="email-address">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="PRETPLATI SE" class="subscribe" id="sub-btn">
+                    </div>
+                </form>
+            </div>
+        </footer>
+        <!-- AFTER FOOTER SECTION -->
+        <div class="after-footer">
+            <div class="copyright">
+                <h3>Copyright LANACO | All Rights Reserved</h3>
+            </div>
+            <div class="af-mobile">
+                <div class="social">
+                    <div>
+                        <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/043-facebook-1-white.png" alt="">
+                    </div>
+                    <div>
+                        <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/013-twitter-1-white.png" alt="">
+                    </div>
+                    <div>
+                        <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/034-instagram-white.png" alt="">
+                    </div>
+                    <div>
+                        <img class="white" src="6. UPOZNAJTE NAS TIM - slike/733592-social/png/031-linkedin-white.png" alt="">
+                    </div>
+                </div>
+                <div class="af-logo">
+                    <img class="logo" src="8. FOOTER/logo b-creative-02.svg" alt="b-creative-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
